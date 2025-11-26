@@ -45,7 +45,7 @@ function populateContent() {
   document.getElementById('aboutText').textContent = data.about
 
   // Group skills into categories
-  const langs = ['C++','Java','Data Structures & Algorithms (DSA)']
+  const langs = []
 
   function renderList(id, arr){
     const el = document.getElementById(id)
