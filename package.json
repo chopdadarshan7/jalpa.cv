@@ -1,5 +1,5 @@
 {
-  "name": "darshan.cv",
+  "name": "jalpa-resume",
   "version": "1.0.0",
   "description": "This is a minimal, responsive static personal website scaffold. Use it to show your name, photo, skills, projects and a download link for your resume.",
   "main": "index.js",
