@@ -45,6 +45,7 @@ function populateContent() {
   document.getElementById('aboutText').textContent = data.about
 
   // Group skills into categories
+  const frontend = ['HTML']
   const langs = ['Python']
 
   function renderList(id, arr){
@@ -58,6 +59,7 @@ function populateContent() {
     })
   }
 
+  renderList('skillsFrontend', frontend)
   renderList('skillsLang', langs)
 
   // Experience section removed
