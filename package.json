@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chopdadarshan7/darshan.cv.git"
+    "url": "git+https://github.com/jalpanakum7/jalpa-resume.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chopdadarshan7/darshan.cv/issues"
+    "url": "https://github.com/jalpanakum7/jalpa-resume/issues"
   },
-  "homepage": "https://github.com/chopdadarshan7/darshan.cv#readme",
+  "homepage": "https://github.com/jalpanakum7/jalpa-resume#readme",
   "devDependencies": {
     "http-server": "^14.1.1"
   }
