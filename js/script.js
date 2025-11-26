@@ -71,17 +71,18 @@ function populateContent() {
   renderList('skillsInfra', infra)
   renderList('skillsOther', other)
 
-  const experienceList = document.getElementById('experienceList')
-  data.experiences.forEach(e=>{
-    const card = document.createElement('article')
-    card.className = 'card'
-    card.innerHTML = `
-      <h3>${e.title}</h3>
-      <p class="meta">${e.period || ''}</p>
-      <p>${e.desc}</p>
-    `
-    experienceList.appendChild(card)
-  })
+  // Experience section removed
+  // const experienceList = document.getElementById('experienceList')
+  // data.experiences.forEach(e=>{
+  //   const card = document.createElement('article')
+  //   card.className = 'card'
+  //   card.innerHTML = `
+  //     <h3>${e.title}</h3>
+  //     <p class="meta">${e.period || ''}</p>
+  //     <p>${e.desc}</p>
+  //   `
+  //   experienceList.appendChild(card)
+  // })
 
   const projectsList = document.getElementById('projectsList')
   data.projects.forEach(p=>{
