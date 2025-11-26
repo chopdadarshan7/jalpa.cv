@@ -45,13 +45,7 @@ function populateContent() {
   document.getElementById('aboutText').textContent = data.about
 
   // Group skills into categories
-  const frontend = ['HTML5','CSS3','JavaScript (ES6+)','TypeScript','React.js','Next.js']
-  const backend = ['Node.js','Express.js','Python (APIs - basics)']
-  const infra = ['MongoDB','AWS (basic)']
   const langs = ['C++','Java','Data Structures & Algorithms (DSA)']
-
-  // Combine backend, databases & cloud into one array for skillsInfra
-  const combinedInfra = [...backend, ...infra]
 
   function renderList(id, arr){
     const el = document.getElementById(id)
@@ -64,10 +58,7 @@ function populateContent() {
     })
   }
 
-  renderList('skillsFrontend', frontend)
-  renderList('skillsBackend', backend)
   renderList('skillsLang', langs)
-  renderList('skillsInfra', infra)
 
   // Experience section removed
   // const experienceList = document.getElementById('experienceList')
