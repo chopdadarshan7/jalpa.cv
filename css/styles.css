@@ -22,7 +22,8 @@ body{
 .container{max-width:var(--max-width);margin:0 auto;padding:28px}
 .site-header{padding:40px 0}
 .header-grid{display:flex;gap:28px;align-items:center;background:linear-gradient(135deg, rgba(253,216,53,0.15), rgba(255,245,157,0.08));padding:22px;border-radius:16px;border:1px solid rgba(253,216,53,0.3);box-shadow:0 4px 6px rgba(0,0,0,0.5)}
-.avatar{width:200px;height:200px;border-radius:18px;border:2px solid rgba(253,216,53,0.4);background:linear-gradient(180deg,rgba(253,216,53,0.12),transparent);box-shadow:0 6px 18px rgba(253,216,53,0.3);object-fit:cover}
+.avatar{width:280px;height:280px;border-radius:20px;border:3px solid rgba(253,216,53,0.5);background:linear-gradient(180deg,rgba(253,216,53,0.15),transparent);box-shadow:0 8px 24px rgba(253,216,53,0.4);object-fit:cover;transition:transform 0.3s ease}
+.avatar:hover{transform:scale(1.05)}
 .intro h1{margin:0;font-size:32px;letter-spacing:0.2px}
 .intro p{margin:6px 0;color:var(--muted)}
 .intro .muted{color:var(--muted);font-size:14px}
@@ -47,7 +48,7 @@ h2{margin:0 0 14px 0}
 
 @media (max-width:700px){
   .header-grid{flex-direction:column;align-items:flex-start;text-align:center}
-  .avatar{width:112px;height:112px;margin:0 auto}
+  .avatar{width:150px;height:150px;margin:0 auto}
   .split{grid-template-columns:1fr}
   .intro h1{font-size:28px}
   .intro p{font-size:14px}
@@ -59,7 +60,7 @@ h2{margin:0 0 14px 0}
   .container{padding:16px}
   .site-header{padding:20px 0}
   .header-grid{padding:16px;gap:16px}
-  .avatar{width:100px;height:100px}
+  .avatar{width:120px;height:120px}
   .intro h1{font-size:24px}
   .intro p{font-size:13px;margin:4px 0}
   .actions{margin-top:12px}
