@@ -49,7 +49,6 @@ function populateContent() {
   const backend = ['Node.js','Express.js','Python (APIs - basics)']
   const infra = ['MongoDB','AWS (basic)']
   const langs = ['C++','Java','Data Structures & Algorithms (DSA)']
-  const other = ['Photo Editing','Video Editing','Digital Marketing']
 
   // Combine backend, databases & cloud into one array for skillsInfra
   const combinedInfra = [...backend, ...infra]
@@ -69,7 +68,6 @@ function populateContent() {
   renderList('skillsBackend', backend)
   renderList('skillsLang', langs)
   renderList('skillsInfra', infra)
-  renderList('skillsOther', other)
 
   // Experience section removed
   // const experienceList = document.getElementById('experienceList')
