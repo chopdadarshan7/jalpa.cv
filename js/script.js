@@ -21,12 +21,12 @@ const data = {
     {title:'Intern at Gharkiyade Startup',period:'June 2023 - August 2023',desc:'Worked on developing web applications for the Gharkiyade platform, focusing on frontend development with React.js and backend integration with Node.js. Contributed to improving user experience and implementing new features.'}
   ],
   projects: [
-    {title:'Simple REST API',tech:'Node.js • Express • MongoDB',desc:'REST API for managing sample data; includes CRUD routes and basic auth.',link:'https://github.com/shubhboda'},
-    {title:'E-Commerce Platform',tech:'React.js • Node.js • MongoDB • Stripe',desc:'Full-stack e-commerce application with user authentication, product management, shopping cart, and payment integration.',link:'https://github.com/shubhboda/ecommerce-platform'},
-    {title:'Task Management App',tech:'Next.js • TypeScript • Prisma • PostgreSQL',desc:'Modern task management application with real-time updates, team collaboration features, and advanced filtering.',link:'https://github.com/shubhboda/task-manager'}
+    {title:'Simple REST API',tech:'Node.js • Express • MongoDB',desc:'REST API for managing sample data; includes CRUD routes and basic auth.',link:'https://github.com/jalpanakum7'},
+    {title:'E-Commerce Platform',tech:'React.js • Node.js • MongoDB • Stripe',desc:'Full-stack e-commerce application with user authentication, product management, shopping cart, and payment integration.',link:'https://github.com/jalpanakum7'},
+    {title:'Task Management App',tech:'Next.js • TypeScript • Prisma • PostgreSQL',desc:'Modern task management application with real-time updates, team collaboration features, and advanced filtering.',link:'https://github.com/jalpanakum7'}
   ],
   resume: '', // set to a relative path like 'assets/Resume.pdf' if you add one
-  github: 'https://github.com/chopdadarshan7',
+  github: 'https://github.com/jalpanakum7',
   linkedin: 'https://www.linkedin.com/in/chopda-darshan-2159942a5/',
   twitter: ''
 }
