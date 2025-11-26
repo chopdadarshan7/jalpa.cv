@@ -27,7 +27,7 @@ const data = {
   ],
   resume: '', // set to a relative path like 'assets/Resume.pdf' if you add one
   github: 'https://github.com/jalpanakum7',
-  linkedin: 'https://www.linkedin.com/in/chopda-darshan-2159942a5/',
+  linkedin: 'https://www.linkedin.com/in/jalpa-nakum-16230a39a',
   twitter: ''
 }
 
