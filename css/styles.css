@@ -23,8 +23,9 @@ body{
 .container{max-width:var(--max-width);margin:0 auto;padding:32px}
 .site-header{padding:50px 0}
 .header-grid{display:flex;gap:32px;align-items:center;background:linear-gradient(135deg, rgba(253,216,53,0.2), rgba(255,245,157,0.12));padding:32px;border-radius:20px;border:2px solid rgba(253,216,53,0.4);box-shadow:0 8px 32px rgba(253,216,53,0.3), 0 2px 8px rgba(0,0,0,0.1);backdrop-filter:blur(10px)}
-.avatar{width:280px;height:280px;border-radius:20px;border:3px solid rgba(253,216,53,0.5);background:linear-gradient(180deg,rgba(253,216,53,0.15),transparent);box-shadow:0 8px 24px rgba(253,216,53,0.4);object-fit:cover;transition:transform 0.3s ease}
-.avatar:hover{transform:scale(1.05)}
+.avatar{width:300px;height:300px;border-radius:24px;border:4px solid rgba(253,216,53,0.6);background:linear-gradient(135deg,rgba(253,216,53,0.2),rgba(255,245,157,0.1));box-shadow:0 12px 32px rgba(253,216,53,0.5), 0 4px 12px rgba(0,0,0,0.15), inset 0 2px 4px rgba(255,255,255,0.3);object-fit:cover;transition:all 0.4s cubic-bezier(0.4, 0, 0.2, 1);position:relative;overflow:hidden}
+.avatar::before{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:linear-gradient(135deg,transparent 0%,rgba(253,216,53,0.1) 100%);pointer-events:none;z-index:1}
+.avatar:hover{transform:scale(1.08) rotate(2deg);box-shadow:0 16px 40px rgba(253,216,53,0.6), 0 6px 16px rgba(0,0,0,0.2), inset 0 2px 4px rgba(255,255,255,0.4);border-color:rgba(253,216,53,0.8)}
 .intro h1{margin:0;font-size:36px;letter-spacing:0.3px;font-weight:700;color:#1a1a1a;line-height:1.2}
 .intro p{margin:8px 0;color:var(--muted);font-size:15px;line-height:1.5}
 .intro .muted{color:var(--muted);font-size:14px}
@@ -52,7 +53,7 @@ h2{margin:0 0 20px 0;font-size:28px;font-weight:700;color:#1a1a1a;border-bottom:
 
 @media (max-width:700px){
   .header-grid{flex-direction:column;align-items:flex-start;text-align:center}
-  .avatar{width:150px;height:150px;margin:0 auto}
+  .avatar{width:180px;height:180px;margin:0 auto;border-width:3px}
   .split{grid-template-columns:1fr}
   .intro h1{font-size:28px}
   .intro p{font-size:14px}
@@ -64,7 +65,7 @@ h2{margin:0 0 20px 0;font-size:28px;font-weight:700;color:#1a1a1a;border-bottom:
   .container{padding:16px}
   .site-header{padding:20px 0}
   .header-grid{padding:16px;gap:16px}
-  .avatar{width:120px;height:120px}
+  .avatar{width:140px;height:140px;border-width:2px}
   .intro h1{font-size:24px}
   .intro p{font-size:13px;margin:4px 0}
   .actions{margin-top:12px}
